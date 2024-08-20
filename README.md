@@ -2,6 +2,7 @@
 * 随机文件名
 * 随机文件信息
 * 加上sigthief签名窃取功能
+
 `python3 icon-exe.py -h`
 ```
 Author:pant0m & Hyyrent 修改版 v 1.3
