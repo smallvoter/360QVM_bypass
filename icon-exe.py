@@ -131,7 +131,7 @@ def add_version_info(exe_file):
 def add_sign_info(exe_sign, exe_file):
     # 使用sigthief工具为exe文件添加签名
     output_exe_file = f"output\{getstrRandom()}.exe"
-    command = f'python sigthief\sigthief.py -i "{exe_sign}" -t "{exe_file}" -o "{output_exe_file}"'
+    command = f'python sigthief.py -i "{exe_sign}" -t "{exe_file}" -o "{output_exe_file}"'
     subprocess.run(command, shell=True)
 
 def getstrRandom():
